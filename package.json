@@ -1,0 +1,28 @@
+{
+  "name": "aigc-label-kit",
+  "version": "0.1.0",
+  "description": "Label AI-generated content the way regulators require: explicit visible labels + implicit file metadata (China's 生成合成内容标识办法 / GB 45438-2025), with a WeChat cloud-function adapter.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "aigc-label": "bin/aigc-label.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "aigc",
+    "ai-generated-content",
+    "content-labeling",
+    "metadata",
+    "gb-45438",
+    "deep-synthesis",
+    "wechat-miniprogram",
+    "cloud-functions",
+    "provenance"
+  ],
+  "license": "MIT"
+}
